@@ -1,0 +1,27 @@
+{
+  "name": "line-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node test/test.ts",
+    "build": "npm run clean && tsc",
+    "build:watch": "npm run clean && tsc -w",
+    "clean": "rimraf dist",
+		"minify": "terser dist/main.js -o dist/main.min.js",
+		"build:production": "npm run build && npm run minify"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "rimraf": "^6.0.1",
+    "terser": "^5.34.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0"
+  }
+}
