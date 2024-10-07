@@ -5,7 +5,7 @@
   "main": "dist/main.min.js",
   "scripts": {
     "test:jest": "jest",
-		"test": "nyc --reporter=lcov --reporter=text mocha",
+    "test": "jest --coverage",
     "start": "ts-node test/test.ts",
     "build": "npm run clean && tsc",
     "build:watch": "npm run clean && tsc -w",
