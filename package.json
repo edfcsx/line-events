@@ -1,7 +1,7 @@
 {
   "name": "line-events",
   "version": "1.0.0",
-  "description": "",
+  "description": "Line-Events is a lightweight and straightforward library that operates based on the Observable pattern. It is designed to provide a simple and efficient alternative for creating Observables in JavaScript and TypeScript applications.",
   "main": "dist/main.min.js",
   "scripts": {
     "test:jest": "jest",
@@ -13,9 +13,9 @@
     "minify": "terser dist/main.js -o dist/main.min.js",
     "build:production": "npm run build && npm run minify"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["line-events", "observable", "observer", "events", "event", "observable-pattern", "observer-pattern", "javascript", "typescript"],
+  "author": "Silva, Eduardo Cipriano",
+  "license": "MIT",
   "devDependencies": {
     "@types/uuid": "^10.0.0",
     "codecov": "^3.8.2",
