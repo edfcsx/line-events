@@ -1,6 +1,8 @@
 [![codecov](https://codecov.io/gh/edfcsx/line-events/branch/master/graph/badge.svg)](https://codecov.io/gh/edfcsx/line-events)
 # Line Events
 
+![Logo](./line-events.png)
+
 `line-events` is a library that allows the creation of observables and the transmission of events between different parts of a program.
 <br/><br/>The name `line-events` comes from the idea that events are transmitted from one point to another, like a line or an electrical network, where the line is the transmission medium, each event is an electrical pulse, and each observer is a device that receives that pulse.
 
