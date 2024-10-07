@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/edfcsx/line-events/branch/master/graph/badge.svg)](https://codecov.io/gh/edfcsx/line-events)
 # Line Events
 
 `line-events` is a library that allows the creation of observables and the transmission of events between different parts of a program.
