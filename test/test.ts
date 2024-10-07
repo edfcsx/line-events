@@ -5,13 +5,13 @@ interface Player {
 }
 
 (() => {
-	const nodeM = lvt.create()
+	const lineEvts = lvt.create()
 
-	nodeM.createNode('test', (payload: string) => {
+	lineEvts.createNode('test', (payload: string) => {
 		console.log('linha test:> ', payload)
 	})
 
-	nodeM.createNode<Player>('player', (payload) => {
+	lineEvts.createNode<Player>('player', (payload) => {
 		console.log('linha player:> ', payload)
 	})
 
@@ -19,5 +19,5 @@ interface Player {
 	lvt.stream('player', { hp: 100 })
 	lvt.stream('test', 'Hello, World2!')
 
-	nodeM.destroy()
+	lineEvts.destroy()
 })()
